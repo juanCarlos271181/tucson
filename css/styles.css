@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+@import "bootstrap/scss/bootstrap.scss";
+
+
+.logo a{
+    height: 80px;
+    width: 40%;
+}
+body{
+    background:#F7F5F2;
+}
+
+#titulo{
+    margin:0px auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+#tituloProducto{
+    margin:0px auto;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.imagen{
+    width: 80px;
+}
+
+
+
+.iconFooter{
+    display: flex;
+    justify-content: center;
+    height: 45px;
+}
+
+#select{
+  display: flex;
+
+    
+    
+}
+#qrcode{
+    width: 80px;
+    
+}
+
+
+
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
