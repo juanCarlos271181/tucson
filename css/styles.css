@@ -33,6 +33,10 @@ body{
 .imagen{
     width: 80px;
 }
+.dropdown-menu{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -41,20 +45,6 @@ body{
     justify-content: center;
     height: 45px;
 }
-
-#select{
-  display: flex;
-
-    
-    
-}
-#qrcode{
-    width: 80px;
-    
-}
-
-
-
 
 
 .divider:after,
