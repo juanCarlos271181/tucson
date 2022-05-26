@@ -33,9 +33,16 @@ body{
 .imagen{
     width: 80px;
 }
+
 .dropdown-menu{
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
+
+}
+
+#qrcode{
+    width: 40px;
 }
 
 
