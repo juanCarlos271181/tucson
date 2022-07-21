@@ -16,10 +16,10 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
-                <div class="logo" id="logoTucson">
-                    <img src="./img/logo-2.png" alt="" style="width: 45%;">
+                <div class="logo" href="/index.php" id="logoTucson">
+                <img src="../img/logoBlue.png" alt="" style="width: 55%;">
                 </div>
-                <a class="navbar-brand" href="#!">MODULO INVENTARIO</a>
+                <a class="navbar-brand" href="#!">CERAMICOS Y PORCELANATOS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -33,14 +33,14 @@
                         <a class="nav-link dropdown-toggle"href="#" role="button"data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
                                
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item active" href="../ceramicos.php">Pisos y Revestimientos</a></li>
-                                <li><a class="dropdown-item" href="../griferia.php">Griferias</a></li>
-                                <li><a class="dropdown-item" href="../sanitarios.php">Sanitarios</a></li>
-                                <li><a class="dropdown-item" href="../marmol.php">Marmoleria</a></li>
-                                <li><a class="dropdown-item" href="../pegamento.php">Pegamento/Pastina</a></li>
+                                <li><a class="dropdown-item active" href="./ceramicos.php">Ceramicos/Porcelanatos</a></li>
+                                <li><a class="dropdown-item" href="./griferia.php">Griferias/Sanitarios</a></li>
+                                 <li><a class="dropdown-item" href="./marmoleria.php">Piedras/Marmol</a></li>
+                                <li><a class="dropdown-item" href="./pegamentos.php">Pegamentos/Pastinas</a></li>
                             </ul>
-                        
-
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        b5-n
+                        </ul>
                         </li>
 
                     </ul>
@@ -50,9 +50,16 @@
     </header>
 <body>
 
-    <div id="titulo">
-        <h2>Pisos y Revestimientos</h2>
-    </div>
+<?php
+
+foreach($matrizProductos as $registro){
+    echo $registro["NOMBREARTICULO"];
+}
+
+?>
+
+
+    
 
     <table class=" table table-striped table-hover">
         <thead>
@@ -130,16 +137,10 @@
 
 
 
-
-
-
-
-
-
-
-<footer class="py-5 bg-dark">
+    <footer class="py-5 bg-dark">
         <div class="m-0 text-center text-white">
-            <img src="../img/images-removebg-preview.png" alt="">
+            
+            <img src="../img/logo-2.png" alt="">
             <div class="container">
                 <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
             </div>

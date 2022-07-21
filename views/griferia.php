@@ -16,9 +16,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
                 <div class="logo" id="logoTucson">
-                    <img src="./img/logo-2.png" alt="" style="width: 45%;">
+                <img src="../img/logoBlue.png" alt="" style="width: 55%;">
                 </div>
-                <a class="navbar-brand" href="#!">MODULO INVENTARIO</a>
+                <a class="navbar-brand" href="#!">GRIFERIAS Y SANITARIOS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -32,11 +32,10 @@
                         <a class="nav-link dropdown-toggle"href="#" role="button"data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
                                
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item active" href="./views/ceramicos.php">Pisos y Revestimientos</a></li>
-                                <li><a class="dropdown-item" href="./views/griferia.php">Griferias</a></li>
-                                <li><a class="dropdown-item" href="./views/sanitarios.php">Sanitarios</a></li>
-                                <li><a class="dropdown-item" href="./views/marmol.php">Marmoleria</a></li>
-                                <li><a class="dropdown-item" href="./views/pegamento.php">Pegamento/Pastina</a></li>
+                                <li><a class="dropdown-item active" href="./ceramicos.php">Ceramicos/Porcelanatos</a></li>
+                                <li><a class="dropdown-item" href="./griferia.php">Griferias/Sanitarios</a></li>
+                                 <li><a class="dropdown-item" href="./marmoleria.php">Piedras/Marmol</a></li>
+                                <li><a class="dropdown-item" href="./pegamentos.php">Pegamentos/Pastinas</a></li>
                             </ul>
                         
 
@@ -50,9 +49,7 @@
 
 <body>
 
-    <div id="titulo">
-        <h2>Griferia</h2>
-    </div>
+   
 
     <table class=" table table-striped table-hover">
         <thead>
@@ -121,6 +118,55 @@
                 <td><img class="imagen"src="../img/ceramicos/calyx-ducha_mesa-de-trabajo.jpg"></td>
                 <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
             </tr>
+            <tr>
+                <th scope="row">00002</th>
+                <td>Iva Porc. Tirrero</td>
+                <td>290.000 mts/2</td>
+                <td><img class="imagen" src="../img/ceramicos/lavamanos.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00003</th>
+                <td colspan="">S.Lorenzo</td>
+                <td>80.000 mts/2</td>
+                <td><img class="imagen" src="../img/ceramicos/deposito.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00004</th>
+                <td colspan="">Meggagres 20x120</td>
+                <td>120,000 mts/2</td>
+                <td><img class="imagen"src="../img/ceramicos/monaco-combo.jpg" ></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00005</th>
+                <td colspan="">Rosseto 57x57</td>
+                <td>198,000 mts/2</td>
+                <td><img class="imagen"src="../img/ceramicos/murano1.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00006</th>
+                <td colspan="">Itagress 60x60</td>
+                <td>50.000 mts/2</td>
+                <td><img class="imagen"src="../img/ceramicos/pringles-bacha.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00007</th>
+                <td colspan="">Eliane</td>
+                <td>280.000 mts/2</td>
+                <td><img class="imagen"src="../img/ceramicos/combo-bidet.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
+            <tr>
+                <th scope="row">00008</th>
+                <td colspan="">Angelgres</td>
+                <td>122,000 mts/2</td>
+                <td><img class="imagen"src="../img/ceramicos/desague.jpg"></td>
+                <td><img class="imagen"src="../img/ceramicos/qr.jpg"></td>
+            </tr>
         </tbody>
     </table>
 
@@ -130,7 +176,8 @@
 
 <footer class="py-5 bg-dark">
     <div class="m-0 text-center text-white">
-        <img src="../img/images-removebg-preview.png" alt="">
+        
+        <img src="../img/logo-2.png" alt="">
         <div class="container">
             <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
         </div>

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/proyectoTucson//assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="/proyectoTucson//assets/css/styles.css">
-    <link rel="icon" type="image/x-icon" href="./img/images-removebg-preview.png" style="height: 30px" />
+    <link rel="icon" type="image/x-icon" href="../img/images-removebg-preview.png" style="height: 30px" />
     <title>tucPrototipo</title>
 
 </head>
@@ -21,9 +21,9 @@
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
                 <div class="logo" id="logoTucson">
-                    <img src="./img/logo-2.png" alt="" style="width: 45%;">
+                <img src="../img/logoBlue.png" alt="" style="width: 55%;">
                 </div>
-                <a class="navbar-brand" href="#!">MODULO INVENTARIO</a>
+                <a class="navbar-brand" href="#!">PRODUCTOS</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation"><span
@@ -37,11 +37,10 @@
                         <a class="nav-link dropdown-toggle"href="#" role="button"data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
                                
                             <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
-                                <li><a class="dropdown-item active" href="ceramicos.php">Pisos y Revestimientos</a></li>
-                                <li><a class="dropdown-item" href="views/griferia.php">Griferias</a></li>
-                                <li><a class="dropdown-item" href="views/sanitarios.php">Sanitarios</a></li>
-                                <li><a class="dropdown-item" href="views/marmol.php">Marmol</a></li>
-                                <li><a class="dropdown-item" href="views/pegamento.php">Pegamentos/Pastina</a></li>
+                                <li><a class="dropdown-item active" href="./views/ceramicos.php">Ceramicos/Porcelanatos</a></li>
+                                <li><a class="dropdown-item" href="./griferia.php">Griferias/Sanitarios</a></li>
+                                <li><a class="dropdown-item" href="./marmoleria.php">Marmol</a></li>
+                                <li><a class="dropdown-item" href="./pegamentos.php">Pegamentos/Pastina</a></li>
                             </ul>
                         
 
@@ -53,9 +52,7 @@
         </nav>
     </header>
 
-    <div id="titulo">
-        <h2>Categorias</h2>
-    </div>
+   
 
 <br>
 <br>
@@ -107,17 +104,14 @@
 
     <footer class="py-5 bg-dark">
         <div class="m-0 text-center text-white">
-            <img src="./img/images-removebg-preview.png" alt="">
+            
+            <img src="../img/logo-2.png" alt="">
             <div class="container">
                 <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
             </div>
     </footer>
 
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="./js/bootstrap.min.js"></script>
-    <script src="./js/bootstrap.bundle.js"></script>
+    
 </body>
 
 
