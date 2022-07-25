@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/proyectoTucson/assets/css/bootstrap.min.css">
         <link rel="stylesheet" href="/proyectoTucson//assets/css/styles.css">
-        <link rel="icon" type="image/x-icon" href="../img/images-removebg-preview.png" style="height: 30px" />
+        <link rel="icon" type="image/x-icon" href="../img/logoBlue.png" style="height: 30px" />
         <script type="text/javascript" src="js/qrcodejs/qrcode.min.js"></script>
         <title>tucPrototipo</title>
     
@@ -16,7 +16,7 @@
 
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
             <div class="container">
-                <div class="logo" href="/index.php" id="logoTucson">
+                <div class="logo" href="./index.php" id="logoTucson">
                 <img src="../img/logoBlue.png" alt="" style="width: 55%;">
                 </div>
                 <a class="navbar-brand" href="#!">CERAMICOS Y PORCELANATOS</a>
@@ -38,8 +38,7 @@
                                  <li><a class="dropdown-item" href="./marmoleria.php">Piedras/Marmol</a></li>
                                 <li><a class="dropdown-item" href="./pegamentos.php">Pegamentos/Pastinas</a></li>
                             </ul>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        b5-n
+                        
                         </ul>
                         </li>
 
