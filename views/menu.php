@@ -1,18 +1,18 @@
+<?php include_once("../env.php");?>
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/proyectoTucson/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/proyectoTucson/assets/css/styles.css">
-    <link rel="stylesheet" href="/estilo.css">
-    <link rel="icon" type="image/x-icon" href="img/images-removebg-preview.png" style="height: 60px" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href=https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100">
-    
-    <title>prueba</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<?=$PATH;?>assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?=$PATH;?>assets/css/styles.css">
+  <link rel="stylesheet" href="/estilo.css">
+  <link rel="icon" type="image/x-icon" href="<?=$PATH;?>img/images-removebg-preview.png" style="height: 60px" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href=https://fonts.google.com/share?selection.family=Roboto%20Mono:wght@100">
+
+  <title><?=$TITLE;?></title>
 
  </head>
  <body>
@@ -23,7 +23,7 @@
      <ul class="nav flex-column">
      <li class="nav-item">
      <img src="../img/logoBlue.png" alt="" style="width: 45%;">
-  
+
   <div class= "menu">
       <a class="nav-link active" href="./views/prueba"><i class="bi bi-list"></i>MENU</a>
       </li>
@@ -50,7 +50,7 @@
       </li>
  </div>
   </ul>
-  
+
 </div>
 
 

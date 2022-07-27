@@ -1,58 +1,27 @@
+<?php include_once("env.php");?>
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/proyectoTucson/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/proyectoTucson/assets/css/styles.css">
-        <link rel="icon" type="image/x-icon" href="./img/logoBlue.png" style="height: ">
-        <script type="text/javascript" src="js/qrcodejs/qrcode.min.js"></script>
-        <title>tucPrototipo</title>
-    
-    </head>
-    <header>
-
-
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navBar">
-            <div class="container">
-                <div class="logo" id="logoTucson">
-                    <img src="./img/logoBlue.png" alt="" style="width: 55%;">
-                </div>
-                <a class="navbar-brand" href="#!">SYSTEM TUCSON</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
-
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./index.php">Home</a>
-                        </li>
-                          <li class="nav-item"><a class="nav-link" href="./views/login.php">Login</a></li>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="<?=$PATH;?>assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="<?=$PATH;?>assets/css/styles.css">
+  <link rel="icon" type="image/x-icon" href="<?=$PATH;?>img/logoBlue.png" style="height: ">
+  <title><?=$TITLE;?></title>
+</head>
 <body>
 
+<?php
+  $HEADER_TITLE="SYSTEM TUCSON";
+  include_once("views/header.php")
+?>
 
-
-    
 <div class="m-0 text-center">
- <img src="./img/controlInventarios.webp">
-    </div>
+  <img src="<?=$PATH;?>img/controlInventarios.webp">
+</div>
 
-    <footer class="py-5 bg-dark">
-        <div class="m-0 text-center text-white">
-            <img src="./img/logo-2.png" alt="">
-            
-            <div class="container">
-                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2022</p>
-            </div>
-    </footer>
+<?php include_once("views/footer.php") ?>
+
 </body>
 </html>
